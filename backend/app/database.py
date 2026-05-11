@@ -13,6 +13,6 @@ Sessionlocal=sessionmaker(bind=engine)
 try:
     connections=engine.connect()
     print("database connected successfully")
-
+ 
 except:
     print("Database connection fail...")
